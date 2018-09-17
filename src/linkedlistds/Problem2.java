@@ -63,7 +63,7 @@ public class Problem2 implements Runnable {
 		t3.join();
 		t4.join();
 		for(int i=0;i<result.size();i++) {
-			System.out.print(Problem2.result.get(i));
+			System.out.print("result is" +Problem2.result.get(i));
 		}
 	}
 }
