@@ -28,7 +28,7 @@ public class AvgTemp implements Runnable {
 		}
 		}
 		catch(Exception e) {
-			System.out.println("exception occurred");
+			System.out.println("exception occurred"+e.getMessage());
 			e.printStackTrace();
 		}
 	}
